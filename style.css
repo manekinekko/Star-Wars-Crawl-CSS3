@@ -1,0 +1,52 @@
+body {
+	color: rgb(252,223,43);
+	background: #45484d;
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#45484d), color-stop(100%,#000000));
+	background: -webkit-radial-gradient(center, ellipse cover, #45484d 0%,#000000 100%);
+}
+h1 {
+	font-family: 'Bevan';
+	width: 470px;
+	text-align: center;
+	font-size: 50px;
+	margin: 240px auto;
+	text-shadow: 1px 7px 10px black, 0px -1px 8px #EEE;
+	-webkit-animation: flip 150s 0 infinite;
+}
+#container {
+	margin: 0 auto;
+	height: 100%;
+	width: 1000px;
+	position: relative;
+	overflow: hidden;
+	-webkit-perspective: 300;
+	-webkit-perspective-origin: center center;
+}
+#content {
+	opacity: 1;
+	text-shadow: 0 0 10px #000 ;
+	font-weight: bolder;
+	width: 1000px;
+	line-height: 50px;
+	text-align:center;
+	font-size: 50px;
+	font-family: "arial";
+	-webkit-animation: star_wars 150s 5s 1;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: rotateX(80deg) translateZ(300px) translateY(830px)		
+}
+img {
+	-webkit-animation: -webkit-transform 0.5s ease-in;
+}
+img:hover {
+	border:1px solid white;
+	-webkit-transform: rotateX(0) translateZ(0) translateY(0);
+}
+@-webkit-keyframes star_wars {
+	0% { -webkit-transform: rotateX(80deg) translateZ(300px) translateY(830px); }
+	100% { -webkit-transform: rotateX(80deg) translateZ(300px) translateY(-3000px); }
+}
+@-webkit-keyframes flip {
+	0% { -webkit-transform: rotateY(0deg); }
+	100% { -webkit-transform: rotateY(380deg); }
+}
