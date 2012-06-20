@@ -1,14 +1,18 @@
 Star Wars Crawl in pure CSS3
 ============================
 
-This little demo has been acheived thanks to the power of CSS3 3D transformations!
-It's 100% pure CSS (and of course some HTML ^^)
+This little demo has been achieved thanks to the power of CSS3 3D transformations!
+It's 100% pure CSS (and of course some HTML tags ^^)
 
 DEMO
 ====
 You will need a Webkit capable browser!
 
 http://cheghamwassim.com/apps/css/star-wars-crawl/
+
+NOTE
+====
+If you feel that there is no perspective, please update your graphic card driver (we are talking 3D here ^^)
 
 License
 =======
